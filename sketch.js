@@ -66,7 +66,7 @@ function setup() {
 
   image(example, 40, 220); // C major scale
 
-  solfa = createVideo(['doremi.mov', 'doremi.mp4']); // clip from The Sound of Music
+  solfa = createVideo(['doremi.mp4']); // clip from The Sound of Music
   solfa.size(width / 2, height / 2);
   solfa.position(50, 410);
   button = createButton('Play');
